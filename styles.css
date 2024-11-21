@@ -194,8 +194,7 @@ footer {
 footer .footer-content img {
     height: 40px;
     width: 40px;
-    border-radius: 50%; /* Circular footer logo */
-}
+    border-radius: 50%;
 
 footer .footer-content p {
     margin: 5px 0;
