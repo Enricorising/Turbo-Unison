@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Unison - Innovation and Quality.</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <a href="https://imgbb.com/">
+            <img src="https://i.ibb.co/cwSqSMg/Copy-of-Green-and-White-Modern-Computer-Service-Repair-Logo-20241115-161319-0000.png" alt="Turbo Unison Logo">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#cart">Cart</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <button id="search-button">Search</button>
+    </div>
+</header>
+
+    <section id="hero">
+        <div class="hero-banner" style="background-image: url('hero-banner.jpg');">
+            <h2>Turbo Unison Innovation and Quality</h2>
+            <p>Quality components for all your PC building needs.</p>
+            <a href="signin.html" class="btn-primary">Sign in/Sign up</a>
+            
+        </div>
+    </section>
+
+    <section id="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CKeAJGp6myUsLJQckK6roMu5iHfFc9JxVA&usqp=CAU" alt="CPU">
+                <h3>CPUs</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXsZpHocEC6mPk-foSCeV6XaKGGTqyLcuBysh4iZPbIoSMm1o3pUonlrjX&s=10" alt="GPU">
+                <h3>GPUs</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTixJ3tQsjcF0f2x3Sv8qgpIOtOYpWbnoQQIg&usqp=CAU" alt="RAM">
+                <h3>RAM</h3>
+            </div>
+            <div class="category-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJrTIyGUc1i8oRZix-aH3ulQ3KsIoAeeVyKw&usqp=CAU" alt="Motherboard">
+                <h3>Motherboards</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo1ouOLL_9EDVTIfz8GJCmTmZm9DhUcXz1ud9TxGfgy1AQDFGYpBwGoszd&s=10 " alt="Intel Core i7 Processor">
+                <h3>Intel Core i7</h3>
+                <p>₱18.000.00</p>
+                <button onclick="addToCart('Intel Core i7')">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmSPJaX1qNmfRgFKax-MC-KlneaDTxUb3STBpFoX3kgygZFs0Pxrj6JU&s=10" alt="NVIDIA RTX 3070 Graphics Card">
+                <h3>NVIDIA RTX 3070</h3>
+                <p>₱47.000.00</p>
+                <button onclick="addToCart('NVIDIA RTX 3070')">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcZitTIHfsgZVd807LwYViXqyEDL5rhn3BAngdtCqGuxfdQO-pmtX2XRU&s=10" alt="Raiden Shogun Keyboard">
+                <h3>Genshin Impact: Raiden Keyboard</h3>
+                <p>₱2.000.00</p>
+                <button onclick="addToCart('Genshin Impact: Raiden Keyboard')">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/610LwQMzFtL._AC_UF1000,1000_QL80_.jpg" alt="Azur Lane Mousepads.">
+                <h3>(Bundle) Azur Lane Mousepads.</h3>
+                <p>₱1.500.00</p>
+                <button onclick="addToCart('Azur Lane Mousepads.')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <img src="footer-logo.png" alt="Turbo Unison Footer Logo" class="footer-logo">
+            <p>© 2024 Turbo Unison. All Rights Reserved. made by Mr. Enrico Cancino and Ms Lyka Galvez.</p>
+            <p>Contact Us: support.turbounison@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
